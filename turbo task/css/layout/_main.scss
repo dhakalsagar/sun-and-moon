@@ -1,0 +1,688 @@
+.mainFocusContainer {
+    width: 100%;
+    height: 800px;
+
+    .eyeCatchImage {
+        width: 100%;
+        display: flex;
+
+        img:nth-child(1) {
+            width: 50%;
+            background-size: contain;
+        }
+
+        img:nth-child(2) {
+            width: 50%;
+            background-size: contain;
+        }
+    }
+
+    .sideLine {
+        width: 60px;
+        height: 507.996;
+        background-color: #f7951e51;
+        position: absolute;
+        right: 0;
+    }
+
+    .eyeCatchText {
+        width: 50%;
+        position: absolute;
+        font-size: 120px;
+        font-family: Ubuntu;
+        top: 250px;
+        color: whitesmoke;
+        text-align: center;
+        font-weight: 900;
+        line-height: 160px;
+    }
+
+    .centerBtn-eyeCatch {
+        width: 540px;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        height: 80px;
+        background-color: #F7941E;
+        border-radius: 10px;
+        margin-top: -150px;
+
+        a {
+            font-size: 32px;
+            text-decoration: none;
+            font-family: Ubuntu;
+            position: relative;
+            line-height: 80px;
+            color: black;
+        }
+    }
+}
+
+.middleContainer {
+    width: 100%;
+    height: 800px;
+    // margin-top: 50px;
+
+    .aboutus-container {
+        width: 100%;
+
+        .aboutContainer {
+            display: flex;
+            justify-content: center;
+            z-index: -1;
+            position: relative;
+            text-align: center;
+            margin-left: -350px;
+
+            p {
+                font-size: 40px;
+                font-family: Ubuntu;
+                color: #F7941E;
+                margin-left: 100px;
+                margin-top: 120px;
+            }
+        }
+
+        .infoImage-about-section {
+            width: 100%;
+            display: flex;
+            margin-top: -120px;
+
+            img {
+                width: 50%;
+                background-size: contain;
+            }
+        }
+
+        .infoText-aboutSec {
+            width: 50%;
+            // margin-top: -900px;
+            margin-left: 0;
+            text-align: center;
+            text-justify: inter-word;
+            position: absolute;
+
+            h1 {
+                margin-bottom: 39px;
+                margin-top: 51px;
+                font-size: 40px;
+                font-family: Ubuntu;
+                font-weight: 900;
+            }
+
+            h2 {
+                font-size: 24px;
+                font-family: Ubuntu;
+            }
+
+            p {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 51px;
+                font-size: 24px;
+                font-family: Ubuntu;
+                word-wrap: break-word;
+                word-break: break-all;
+                text-align-last: left;
+                line-height: 40px;
+            }
+
+            .aboutBtnText {
+                width: 300px;
+                margin: 70px auto 0 auto;
+                text-align: center;
+                position: relative;
+                height: 60px;
+                background-color: #fcfcfbcf;
+                border-radius: 10px;
+
+                a {
+                    font-size: 24px;
+                    text-decoration: none;
+                    font-family: Ubuntu;
+                    position: relative;
+                    line-height: 60px;
+                    color: black;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+
+    .menuContainer {
+        width: 100%;
+        margin: 270px 0 0 0;
+
+        .menu-info {
+
+            .coreInfo-menu {
+                text-align: center;
+
+                img {
+                    width: 100%;
+                    height: 1000px;
+                }
+
+                h1 {
+                    margin-bottom: -50px;
+                    position: relative;
+                    z-index: 1;
+                    font-family: Ubuntu;
+                    font-weight: bold;
+                    font-style: italic;
+                    font-size: 40px;
+                }
+
+                h2 {
+                    margin-bottom: -120px;
+                    position: relative;
+                    z-index: 1;
+                    font-family: Nunito;
+                    font-style: italic;
+                    font-size: 40px;
+                }
+
+                .icon {
+                    position: relative;
+                    z-index: 1;
+                    margin-bottom: -220px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img {
+                        width: 80px;
+                        height: 60px;
+                        margin: 0 120px 0 60px;
+
+                    }
+
+                    span {
+                        margin: 0 0 0 -60px;
+                        font-size: 24px;
+                    }
+
+                    hr {
+                        background-color: none;
+                        border-top: 1px dotted;
+                        width: 200px;
+                        transform: rotate(90deg);
+                        // width: 50px;
+                    }
+                }
+
+                .menuList {
+                    width: 80%;
+                    font-size: 24px;
+                    margin: -700px auto 0 auto;
+                    position: relative;
+                    line-height: 40px;
+
+                    hr {
+                        position: relative;
+                        border-top: 5px dotted;
+                        border-bottom: none;
+
+                    }
+
+                    p {
+                        margin-top: 50px;
+                        text-align: left;
+                        margin-left: 30px;
+
+                        span {
+                            color: red;
+                            position: relative;
+                            float: right;
+                            margin-right: 30px;
+                        }
+                    }
+
+                    .btn-see-menu {
+                        width: 200px;
+                        height: 80px;
+                        background-color: #F7941E;
+                        margin: 60px auto 0 auto;
+                        border-radius: 10px;
+
+                        a {
+                            text-align: center;
+                            line-height: 90px;
+                            text-decoration: none;
+                            color: black;
+                            font-style: 20px;
+                        }
+                    }
+
+                    .hideMethodMenu {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .reserve {
+        width: 100%;
+        margin: 120px 0 0 0;
+        display: flex;
+
+        img {
+            width: 50%;
+        }
+    }
+
+    .reservInfo {
+        width: 50%;
+        margin: 250px auto -560px auto;
+        line-height: 80px;
+        position: relative;
+
+        p {
+            font-size: 60px;
+            font-family: Ubuntu;
+            font-weight: 900;
+            margin: 0 0 0 -120px;
+            color: #F7941E;
+        }
+
+        span {
+            font-family: Ubuntu;
+            font-weight: 900;
+            margin: 0 0 0 -80px;
+            color: black;
+            font-size: 40px;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+        // .reserveBtn {
+        //     width: 200px;
+        //     height: 80px;
+        //     background-color: #F7941E;
+        //     text-align: center;
+        //     border-radius: 10px;
+        //     position: relative;
+
+        //     a {
+        //         text-decoration: none;
+        //         font-size: 24px;
+        //         color: black;
+        //     }
+        // }
+    }
+
+    .teamMember-restro {
+        width: 100%;
+        margin-top: 50px;
+
+        p {
+            text-align: center;
+            font-size: 40px;
+            color: #F7941E;
+            font-family: Ubuntu;
+            font-weight: 900;
+            margin-bottom: 30px;
+        }
+
+        .staffMember {
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+
+            img:nth-child(1) {
+                width: 50%;
+                margin: 0 5px 0 0;
+            }
+
+            img:nth-child(2) {
+                width: 50%;
+                margin: 0 0px 0 5px;
+            }
+        }
+
+        .title {
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+
+            div {
+                width: 50%;
+                text-align: center;
+                font-size: 32px;
+                color: black;
+                font-family: Ubuntu;
+                // background-color: #f7951e86;
+                margin-top: 5px;
+                // border: 5px solid red;
+            }
+        }
+    }
+
+    .testiminol {
+        width: 100%;
+        height: 500px;
+        background-color: lightgray;
+
+        .customerInfo {
+            width: 80%;
+            margin: auto;
+
+            iframe {
+                margin-top: 30px;
+                width: 100%;
+            }
+        }
+    }
+
+    .foodGallry {
+        width: 85%;
+        justify-content: center;
+        margin: auto;
+
+        .foodInfo {
+            text-align: center;
+            color: #F7941E;
+            font-size: 40px;
+            font-family: Ubuntu;
+            margin-top: 33px;
+            margin-bottom: 34px;
+
+            .gallry-first-1line {
+                width: 100%;
+                margin-bottom: 50px;
+                display: flex;
+                margin-top: 33px;
+
+                img {
+                    margin-right: auto;
+                    margin-left: auto;
+                    width: 28%;
+                }
+            }
+
+            .gallry-first-2line {
+                width: 100%;
+                margin-bottom: 50px;
+                display: flex;
+
+                img {
+                    width: 28%;
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+
+    .contact-moreInformation-section {
+        width: 85%;
+        margin: auto;
+
+        .contact-Text-for {
+            h1 {
+                font-size: 40px;
+                color: #F7941E;
+                text-align: center;
+                font-family: Ubuntu;
+                font-weight: 900;
+                margin-bottom: 30px;
+            }
+
+            .info-information {
+                display: flex;
+                width: 100%;
+
+                .contact-info-information {
+                    width: 50%;
+                    vertical-align: top;
+
+                    p {
+                        font-size: 32px;
+                        color: black;
+                        font-family: Ubuntu;
+                        font-weight: 900;
+                    }
+
+                    .info-icon {
+                        margin-left: 30px;
+                        line-height: 60px;
+                        margin-top: 30px;
+                        margin-bottom: 40px;
+
+                        .img-phone {
+                            span {
+                                margin-left: 30px;
+                                font-size: 20px;
+                                font-family: Ubuntu;
+                            }
+
+                            img {
+                                width: 30px;
+                                height: 30px;
+                            }
+                        }
+
+                        .img-location {
+                            span {
+                                margin-left: 30px;
+                                font-size: 20px;
+                                font-family: Ubuntu;
+                            }
+
+                            img {
+                                width: 30px;
+                                height: 20px;
+                            }
+                        }
+
+                        .img-message {
+                            a {
+                                margin-left: 30px;
+                                font-size: 20px;
+                                font-family: Ubuntu;
+                            }
+
+                            img {
+                                width: 30px;
+                                height: 20px;
+                            }
+                        }
+                    }
+
+                    .time-and-date {
+                        line-height: 40px;
+                        margin-top: 40px;
+
+                        p:nth-child(1) {
+                            font-size: 24px;
+                            font-family: Ubuntu;
+                            font-weight: none;
+
+                            span {
+                                margin-left: 60px;
+                            }
+                        }
+
+                        p:nth-child(2) {
+                            font-size: 24px;
+                            font-family: Ubuntu;
+                            font-weight: none;
+
+                            span {
+                                margin-left: 70px;
+                            }
+                        }
+                    }
+                }
+
+                .reservation-info {
+                    // width: 50%;
+                    text-align: center;
+                    font-size: 24px;
+                    font-family: Ubuntu;
+
+                    h3 {
+                        font-family: Ubuntu;
+                    }
+
+                    .form-section {
+                        .nameInput {
+                            margin-top: 30px;
+
+                            label {
+                                float: left;
+                                font-size: 24px;
+                                font-family: Ubuntu;
+
+                                span {
+                                    color: red;
+                                }
+                            }
+
+                            input {
+                                margin-top: 5px;
+                                width: 100%;
+                                height: 50px;
+                                border: none;
+                            }
+
+                            ::placeholder {
+                                font-size: 20px;
+                                padding-left: 20px;
+                            }
+                        }
+
+                        .numberInput {
+                            // float: left;
+                            margin-top: 30px;
+
+                            label {
+                                float: left;
+                                font-size: 24px;
+                                font-family: Ubuntu;
+
+                                span {
+                                    color: red;
+                                }
+                            }
+
+                            input {
+                                margin-top: 5px;
+                                width: 100%;
+                                height: 50px;
+                                border: none;
+                            }
+
+                            ::placeholder {
+                                font-size: 20px;
+                                padding-left: 20px;
+                            }
+                        }
+
+                        .mailInput {
+                            // float: left;
+                            margin-top: 30px;
+
+                            label {
+                                float: left;
+                                font-size: 24px;
+                                font-family: Ubuntu;
+
+                                span {
+                                    color: red;
+                                }
+                            }
+
+                            input {
+                                margin-top: 5px;
+                                width: 100%;
+                                height: 50px;
+                                border: none;
+                            }
+
+                            ::placeholder {
+                                font-size: 20px;
+                                padding-left: 20px;
+                            }
+                        }
+
+                        .personQuentity {
+                            // float: left;
+                            margin-top: 30px;
+
+                            label {
+                                float: left;
+                                font-size: 24px;
+                                font-family: Ubuntu;
+
+                                span {
+                                    color: red;
+                                }
+                            }
+
+                            input {
+                                margin-top: 5px;
+                                width: 100%;
+                                height: 50px;
+                                border: none;
+                            }
+
+                            ::placeholder {
+                                font-size: 20px;
+                                padding-left: 20px;
+                            }
+                        }
+
+                        .suggestionInput {
+                            // float: left;
+                            margin-top: 30px;
+
+                            label {
+                                float: left;
+                                font-size: 24px;
+                                font-family: Ubuntu;
+
+                                span {
+                                    color: red;
+                                }
+                            }
+
+                            input {
+                                margin-top: 5px;
+                                width: 100%;
+                                height: 150px;
+                                border: none;
+                            }
+
+                            ::placeholder {
+                                font-size: 20px;
+                                padding-left: 20px;
+                            }
+                        }
+
+                        .btn {
+                            width: 100%;
+                            margin: auto;
+
+                            .btn-btn {
+                                width: 200px;
+                                height: 50px;
+                                border-radius: 10%;
+                                background-color: #F7941E;
+                                line-height: 40px;
+                                cursor: pointer;
+                                border: none;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

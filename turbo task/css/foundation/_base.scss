@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+a {
+    display: inline-block;
+    // color: $fc-base;
+    text-decoration: none;
+    transition: .3s;
+    opacity: 1;
+
+    &:hover {
+        opacity: .7;
+        transition: .3s;
+    }
+}

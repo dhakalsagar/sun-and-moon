@@ -1,0 +1,84 @@
+header {
+    width: 90%;
+    height: 179px;
+    text-align: center;
+    margin: auto;
+
+    .logo {
+        float: left;
+        margin-left: 30px;
+        width: 197px;
+        height: 147px;
+    }
+
+    .humBurger {
+        position: relative;
+        margin-left: 30px;
+        text-align: end;
+
+        .menu-btn {
+            display: none;
+            width: 35px;
+            border: none;
+            background: none;
+            cursor: pointer;
+            padding: 0;
+
+            .bar {
+                height: 3px;
+                background-color: #333;
+                margin: 0.5rem 0;
+            }
+        }
+
+        .menu-btn::after,
+        .menu-btn::before {
+            content: '';
+            display: block;
+            height: 3px;
+            background-color: #333;
+        }
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        float: right;
+
+        a {
+            text-decoration: none;
+            width: 100%;
+            position: relative;
+
+            li {
+                margin-top: 70px;
+                font-size: 32px;
+                color: #F7941E;
+                font-family: Ubuntu;
+                font-weight: 900;
+                padding: 14px 16px;
+            }
+
+            li:hover {
+                opacity: 10;
+            }
+
+            li::before {
+                transition: 300ms;
+                height: 5px;
+                content: "";
+                position: absolute;
+                background-color: #F7941E;
+            }
+
+            li::before {
+                width: 0%;
+                bottom: -10px;
+            }
+
+            li:hover::before {
+                width: 30%;
+            }
+        }
+    }
+}

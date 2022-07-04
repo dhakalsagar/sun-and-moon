@@ -1,0 +1,262 @@
+@media only screen and (max-width: 1200px) {
+    header {
+        height: 15.833vw;
+    }
+
+    header .logo {
+        display: none;
+    }
+
+    header ul a li {
+        margin-top: 5.833vw;
+        font-size: 2.667vw;
+        padding: 1.167vw 1.333vw;
+    }
+
+    .mainFocusContainer {
+        height: 66.667vw;
+    }
+
+    .mainFocusContainer .sideLine {
+        width: 5vw;
+        height: 42.333vw;
+    }
+
+    .mainFocusContainer .eyeCatchText {
+        font-size: 8vw;
+        line-height: 10.333vw;
+        top: 20.833vw;
+
+    }
+
+    .mainFocusContainer .centerBtn-eyeCatch {
+        width: 45vw;
+        height: 6.667vw;
+        border-radius: 0.833vw;
+        margin-top: -12.500vw;
+    }
+
+    .mainFocusContainer .centerBtn-eyeCatch a {
+        line-height: 6.667vw;
+        font-size: 2.667vw;
+    }
+
+    .middleContainer {
+        height: 66.667vw;
+        /* margin-top: 4.167vw; */
+    }
+
+    .middleContainer .aboutus-container .aboutContainer {
+        margin-left: -29.167vw;
+    }
+
+    .middleContainer .aboutus-container .aboutContainer p {
+        font-size: 3.333vw;
+        margin-left: 3.333vw;
+        margin-top: -18vw;
+    }
+
+    .middleContainer .aboutus-container .aboutContainer img {
+        margin-top: -30vw;
+        height: 30.167vw;
+    }
+
+    .middleContainer .aboutus-container .infoImage-about-section {
+        margin-top: -10vw;
+    }
+
+    .middleContainer .aboutus-container .infoText-aboutSec h1 {
+        margin-bottom: 3.250vw;
+        margin-top: 4.250vw;
+        font-size: 3.333vw;
+    }
+
+    .middleContainer .aboutus-container .infoText-aboutSec h2 {
+        font-size: 2vw;
+    }
+
+    .middleContainer .aboutus-container .infoText-aboutSec p {
+        margin-top: 4.250vw;
+        font-size: 2vw;
+        line-height: 3.333vw;
+    }
+
+    .middleContainer .aboutus-container .infoText-aboutSec .aboutBtnText {
+        width: 25vw;
+        margin: 5.833vw auto 0 auto;
+        height: 5vw;
+        border-radius: 0.833vw;
+    }
+
+    .middleContainer .aboutus-container .infoText-aboutSec .aboutBtnText a {
+        font-size: 2vw;
+        line-height: 5vw;
+    }
+
+    .menuContainer {
+        margin: 22.500vw 0 0 0;
+    }
+
+    .menuContainer .menu-info .coreInfo-menu img {
+        height: 83.333vw;
+    }
+
+    .menuContainer .menu-info .coreInfo-menu h1 {
+        margin-bottom: -4.167vw;
+        font-size: 3.333vw;
+    }
+
+    .menuContainer .menu-info .coreInfo-menu h2 {
+        margin-bottom: -10vw;
+        font-size: 3.333vw;
+    }
+
+    .menuContainer .menu-info .coreInfo-menu .icon {
+        margin-bottom: 18.333vw;
+    }
+
+    .menuContainer .menu-info .coreInfo-menu .icon img {
+        width: 6.667vw;
+        height: 5vw;
+        margin-right: 10vw;
+        display: flex;
+    }
+
+    .menuContainer .menu-info .coreInfo-menu .icon span {
+        margin: 0 0 0 -5vw;
+        font-size: 2vw;
+    }
+
+    .menuContainer .menu-info .coreInfo-menu .icon hr {
+        width: 16.667vw;
+        width: 4.167vw;
+        display: none;
+    }
+
+    .menuContainer .menu-info .menuList {
+        font-size: 2vw;
+        margin: -58.333vw auto 0 auto;
+        line-height: 3.333vw;
+    }
+
+    .menuContainer .menu-info .menuList hr {
+        border-top: 0.417vw dotted;
+    }
+
+    .menuContainer .menu-info .menuList p {
+        margin-top: 4.167vw;
+        margin-left: 2.500vw;
+    }
+
+    .menuContainer .menu-info .menuList p span {
+        margin-right: 2.500vw;
+    }
+
+    .menuContainer .menu-info .btn-see-menu {
+        width: 16.667vw;
+        height: 6.667vw;
+        background-color: #F7941E;
+        margin: 5vw auto 0 auto;
+        border-radius: 0.833vw;
+    }
+
+    .menuContainer .menu-info .btn-see-menu a {
+        line-height: 7.500vw;
+        font-style: 1.667vw;
+    }
+
+    .middleContainer .reserve {
+        margin: 10vw 0 0 0;
+    }
+
+    .middleContainer .reservInfo {
+        margin: 20.833vw auto -36.667vw auto;
+        line-height: 6.667vw;
+    }
+
+    .middleContainer .reservInfo p {
+        font-size: 5vw;
+        color: red;
+        margin: 0 0 0 -20vw;
+    }
+
+    .middleContainer .reservInfo span {
+        margin: 0 0 0 -10.667vw;
+        font-size: 3.333vw;
+    }
+
+    .middleContainer .reservInfo .reserveBtn {
+        width: 16.667vw;
+        height: 6.667vw;
+        border-radius: 0.833vw;
+    }
+
+    .middleContainer .reservInfo .reserveBtn a {
+        font-size: 2vw;
+    }
+
+    .middleContainer .teamMember-restro {
+        margin-top: 4.167vw;
+    }
+
+    .middleContainer .teamMember-restro p {
+        font-size: 3.333vw;
+        margin-bottom: 2.500vw;
+    }
+
+    .middleContainer .teamMember-restro .title div {
+        font-size: 2.667vw;
+        margin-top: 0.417vw;
+    }
+
+    .middleContainer {
+        height: 41.667vw;
+    }
+
+    .foodGallry .customerInfo p {
+        font-size: 3.333vw;
+    }
+
+    header ul {
+        /* float: left; */
+        position: absolute;
+        top: 5px;
+        left: 20%;
+    }
+
+    /* .mainFocusContainer .contact-moreInformation-section .contact-Text-for .info-information {
+        display: block;
+    } */
+
+}
+
+@media only screen and (max-width: 768px) {
+    .menuContainer .menu-info .coreInfo-menu .icon {
+        display: none;
+    }
+
+    .menuContainer .menu-info .coreInfo-menu .icon img {
+        display: none;
+    }
+
+    .menuContainer .menu-info .coreInfo-menu .icon span {
+        display: none;
+    }
+
+    .contact-info-information {
+        display: none;
+    }
+
+    .reservation-info {
+        width: 100%;
+    }
+
+    header ul {
+        /* float: left; */
+        position: absolute;
+        top: 5px;
+        left: 20%;
+    }
+
+
+}
